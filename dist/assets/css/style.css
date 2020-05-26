@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #151515;
+  color: #FFFFFF;
   padding: 15px 25px;
   transition: 0.3s;
   font-size: 15px;
@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 20px;
   font-size: 14px;
   font-weight: 400;
-  color: #151515;
+  color: #FFFFFF;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #151515;
+  color: #FFFFFF;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -435,12 +435,12 @@ section {
   text-transform: uppercase;
   margin-bottom: 15px;
   padding-bottom: 0;
-  color: #151515;
+  color: #FAF784;
 }
 
 .section-title p {
   margin-bottom: 0;
-  color: #000;
+  color: #FFF;
 }
 
 /*--------------------------------------------------------------
@@ -478,27 +478,27 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Local Support
 --------------------------------------------------------------*/
-.services .icon-box h4 {
+.local-support .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 5px 0 10px 60px;
 }
 
-.services .icon-box i {
+.local-support .icon-box i {
   font-size: 48px;
   float: left;
   color: #FAF784;
 }
 
-.services .icon-box p {
+.local-support .icon-box p {
   font-size: 15px;
   color: #959595;
   margin-left: 60px;
 }
 
-.services .image {
+.local-support .image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -509,8 +509,9 @@ section {
 # Featured
 --------------------------------------------------------------*/
 .featured {
-  padding: 40px 0 0 0;
-  background: white;
+  /*padding: 40px 0 0 0;*/
+  align-content: center;
+  background: black;
 }
 
 .featured .nav-tabs {
@@ -520,7 +521,7 @@ section {
 .featured .nav-link {
   border: 0;
   padding: 20px;
-  color: #151515;
+  color: #FFFFFF;
   transition: 0.3s;
 }
 
@@ -550,6 +551,12 @@ section {
 .featured .tab-pane.active {
   -webkit-animation: slide-down 0.5s ease-out;
   animation: slide-down 0.5s ease-out;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @-webkit-keyframes slide-down {
@@ -1168,12 +1175,12 @@ section {
   margin-top: 15px;
   font-size: 18px;
   font-weight: 600;
-  color: #151515;
+  color: #FFFFFF;
 }
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #151515;
+  color: #FFFFFF;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -1194,7 +1201,7 @@ section {
 .pricing .box ul {
   padding: 0;
   list-style: none;
-  color: #151515;
+  color: #FFFFFF;
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -1353,7 +1360,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #151515;
+  color: #FFFFFF;
 }
 
 .contact .info p {
