@@ -368,7 +368,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #aeaeae;
+  /*color: #aeaeae;*/
+  color: #ffffff;
   margin-bottom: 30px;
   font-size: 14px;
   font-weight: 400;
