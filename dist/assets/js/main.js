@@ -151,7 +151,7 @@
       titleattr  : 'data-title',                       // default: 'title'
       numeratio  : true,                               // default: false
       infinigall : true,                               // default: false
-      share      : ['bandcamp', 'download']            // default: []
+      share      : ['download']            // default: []
   });
   });
 
