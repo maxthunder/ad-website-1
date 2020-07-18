@@ -1107,6 +1107,18 @@ section {
   border-radius: 5px;
 }
 
+.hide-me {
+  display: none;
+}
+
+.team .member .member-img:hover img:first-child {
+  display: none;
+}
+
+.team .member .member-img:hover img:last-child {
+  display: inline-block;
+}
+
 .team .member .social {
   position: absolute;
   left: 0;
