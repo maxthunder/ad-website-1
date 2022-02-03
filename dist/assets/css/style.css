@@ -332,7 +332,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #hero {
-  background-image: url("../img/band-cover-group-photo-with-logos.jpg");
+  /* background-image: url("../img/band-cover-group-photo-with-logos.jpg"); */
+  background-image: url("../img/Logo_Voodoo_Priest.jpg");
   /*background-image: url("../img/Angelic-4piece-3-trimmed.jpg");*/
   background-size: 100%;
   background-repeat: no-repeat;
