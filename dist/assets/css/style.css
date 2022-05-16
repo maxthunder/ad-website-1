@@ -445,6 +445,40 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Upcoming
+--------------------------------------------------------------*/
+.upcoming .image {
+  padding: 20px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.upcoming .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.upcoming .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.upcoming .content ul li {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.upcoming .content ul i {
+  font-size: 24px;
+  padding: 2px 6px 0 0;
+  color: #FAF784;
+}
+
+.upcoming .content p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
 .about .image {
